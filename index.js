@@ -67,9 +67,9 @@ run().catch(console.dir);
 
 app.get("/", (req, res) => {
   console.log(res);
-  res.send("Example app is running!");
+  res.send("My app is running!");
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`My app listening at http://localhost:${port}`);
 });
